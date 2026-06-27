@@ -32,6 +32,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+src-tauri/.env
 
 # vercel
 .vercel
@@ -39,3 +40,25 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Rust/Tauri
+src-tauri/target/
+src-tauri/**/*.rs.bk
+*.dll
+*.exe
+*.so
+*.dylib
+
+# Tauri specific
+src-tauri/gen/
