@@ -62,3 +62,7 @@ src-tauri/**/*.rs.bk
 
 # Tauri specific
 src-tauri/gen/
+
+# AI Agent working files (temporary notes, phase-specific docs)
+*_AGENT.md
+*_PHASE*.md
